@@ -11,7 +11,7 @@ async  function call(){
 	     setTimeout(()=>{
 			output.textContent = text;
 			 resolve();
-		},delay * 1000)
+		},delay)
 	})
 	
 }
